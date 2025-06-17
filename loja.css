@@ -1,0 +1,18 @@
+.secao_tres{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c2cdff;
+}
+.secao_tres > div > button{
+    background-color: #c2cdff;
+    border-radius: 5%;
+    padding: 1%;
+    margin-top: 5%;
+}
+.secao_tres > div > button:hover{
+    cursor: pointer;
+}
+
+.card > img{
+    width: 100%;
+}
