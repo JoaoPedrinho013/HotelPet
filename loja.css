@@ -1,26 +1,48 @@
 .secao_tres{
     display: flex;
-    justify-content: space-around;
     background-color: #c2cdff;
+    flex-direction: column;
+    text-align: center;
+}
+.secao_tres > h2{
+    font-size: 3em;
+    font-weight: 700;
+    padding: 3%;
+    color: #6041ac;
+}
+.secao_tres > .produtos_disponiveis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.secao_tres > .card {
+.secao_tres > .produtos_disponiveis > .card {
     background-color: white;
     border-radius: 10px;
     padding: 1%;
-    width: 100%;
+    width: 35%;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.315);
+    margin: 2%;
 }
-.secao_tres > .card > img{
-    width: 100%;
+.secao_tres > .produtos_disponiveis > .card > img{
+    width: 50%;
 }
-.secao_tres > div > button {
+.secao_tres > .produtos_disponiveis > .card > button,a {
     background-color: #c2cdff;
-    border-radius: 5%;
+    border: none;
+    color: #6041ac;
     padding: 1%;
     margin-top: 5%;
+    text-decoration: none;
 }
-.secao_tres > div > button:hover{
+.secao_tres > .produtos_disponiveis > .card > button:hover{
     cursor: pointer;
+    color: #7e4cb1;
+    box-shadow: 0 0 3px #7e4cb1;
+}
+.secao_tres > .produtos_disponiveis > .card > h3, p{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #6041ac;
 }
