@@ -1,22 +1,84 @@
-body {
+/* Cores: #6041ac #c2cdff #ffffff #7e4cb1 #a6b5ff */
+* {
     margin: 0;
-    background-color: #f9f9f9;
-    color: rgba(0, 0, 0, 0.808);
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
 }
 
-header {
-    background-color: #6141ac;
-    padding: 1rem 2rem;
-    color: white;
+.barra_navegacao {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c2cdff;
+}
+
+.barra_navegacao_caixa1 {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    padding: 0 5%;
+}
+.barra_navegacao_caixa1 > a {
+    color: #6041ac;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-decoration: none;
+    position: relative;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 1rem;
-    font-weight: bold;
+.barra_navegacao_caixa1 > a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #6041ac;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
 }
+
+.barra_navegacao_caixa1 > a:hover::after {
+    transform: scaleX(1);
+}
+
+
+.barra_navegacao_caixa2 {
+    display: flex;
+    align-items: center;
+    padding-right: 15%;
+}
+
+.barra_navegacao_caixa2 > a {
+    color: #6041ac;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-decoration: none;
+    position: relative;
+}
+
+.barra_navegacao_caixa2 > a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #6041ac;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.barra_navegacao_caixa2 > a:hover::after {
+    transform: scaleX(1);
+}
+
+
 
 .titulo h2 {
     text-align: center;
@@ -49,11 +111,12 @@ nav a {
     border: 1px solid rgba(0, 0, 0, 0.315);
 }
 
-.card h3{
+.card h3 {
     color: #6141ac;
 }
 
-.contatos h2, p{
+.contatos h2,
+p {
     text-align: center;
 }
 
