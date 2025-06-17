@@ -154,13 +154,6 @@ p {
     text-align: center;
 }
 
-footer {
-    background-color: #6141ac;
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
-
 #btnTopo {
     position: fixed;
     bottom: 20px;
@@ -179,4 +172,29 @@ footer {
 
 #btnTopo:hover {
     background-color: #7e4cb1;
+}
+
+footer {
+    background-color: #6141ac;
+    color: white;
+}
+.superior_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2em;
+    border-bottom: 1px solid #7e4cb1;
+}
+.direitos_autorais{
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5% 0 1% 0;
+}
+.contatos > div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.localizacao > a {
+    text-decoration: none;
+    color: white;
 }
