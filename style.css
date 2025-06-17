@@ -121,20 +121,23 @@
 .secao_dois > .servicos_disponiveis {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 
-.secao_dois > .card {
-    background-color: white;
+.secao_dois > .servicos_disponiveis > .card {
+    background-color: #c2cdff;
     border-radius: 10px;
-    padding: 1.5rem;
-    width: 300px;
+    padding: 3%;
+    font-size: 1.2em;
+    width: 25%;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.315);
 }
 
-.secao_dois > .card h3 {
-    color: #6041ac;
+.secao_dois > .servicos_disponiveis > .card h3 {
+    color: #7e4cb1;
+    font-weight: 700;
+    font-size: 1.3em;
 }
 
 
