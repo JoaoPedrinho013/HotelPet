@@ -1,13 +1,17 @@
-const logo = document.getElementById("logo")
+const btnTopo = document.getElementById("btnTopo");
 
-  logo.addEventListener("mouseenter", function () {
-    logo.style.cursor = "pointer"
-  })
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 200) {
+      btnTopo.style.display = "block";
+    } else {
+      btnTopo.style.display = "none";
+    }
+  });
 
-  logo.addEventListener("mouseleave", function () {
-    logo.style.cursor = "default"
-  })
+  btnTopo.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
 
-  logo.addEventListener("click", function () {
-    window.location.href = "index.html"
-  })
