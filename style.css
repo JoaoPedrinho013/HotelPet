@@ -87,8 +87,7 @@
     width: 100%;
 }
 
-.texo1_secao_um,
-.texto2_secao_um {
+.texo1_secao_um{
     position: absolute;
     left: 70%;
     color: white;
@@ -105,10 +104,7 @@
 }
 
 .texto2_secao_um {
-    top: 15%;
     font-weight: 800;   
-    width: 30%;
-    font-size: 3em;
     color: #7e4cb1;
 }
 
