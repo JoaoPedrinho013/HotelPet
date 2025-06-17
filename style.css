@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: #f9f9f9;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+header {
+    background-color: #6141ac;
+    padding: 1rem 2rem;
+    color: white;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.titulo h2 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 2rem;
+    color: #643ac5;
+    font-weight: 900;
+}
+
+.servicos h2 {
+    margin-top: 5%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.servicos_disponiveis {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 300px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+}
+
+.card h3{
+    color: #6141ac;
+}
+
+.contatos h2, p{
+    text-align: center;
+}
+
+footer {
+    background-color: #6141ac;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
