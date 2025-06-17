@@ -28,7 +28,7 @@
 .secao_tres > .produtos_disponiveis > .card > img{
     width: 50%;
 }
-.secao_tres > .produtos_disponiveis > .card > button,a {
+.secao_tres > .produtos_disponiveis > .card > button, .secao_tres > .produtos_disponiveis > .card > button>a {
     background-color: #c2cdff;
     border: none;
     color: #6041ac;
@@ -41,7 +41,7 @@
     color: #7e4cb1;
     box-shadow: 0 0 3px #7e4cb1;
 }
-.secao_tres > .produtos_disponiveis > .card > h3, p{
+.secao_tres > .produtos_disponiveis > .card > h3, .secao_tres > .produtos_disponiveis > .card > p{
     font-size: 1.3em;
     font-weight: 600;
     color: #6041ac;

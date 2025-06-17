@@ -174,23 +174,30 @@ footer {
     font-size: 1.2em;
     border-bottom: 1px solid #7e4cb1;
 }
-.direitos_autorais{
-    color: rgba(255, 255, 255, 0.5);
-    padding: 5% 0 1% 0;
-}
+
 .contatos > div{
     display: flex;
     flex-direction: row;
     margin-top: 2%;
 }
-.contatos h2,
+.contatos h2, div >
 p {
     text-align: center;
+    color: white;
 }
 .contatos h2{
     font-size: 1.2em;
 }
 .localizacao > a {
     text-decoration: none;
+    font-size: 1em;
     color: white;
+}
+.direitos_autorais{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+   padding: 5% 0 1% 0;
+}
+.header-mobile {
+  display: none;
 }

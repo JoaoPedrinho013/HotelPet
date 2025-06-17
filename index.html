@@ -12,17 +12,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="loja.css">
+    <link rel="stylesheet" href="responsividade.css">
     <title>HotelPet</title>
 </head>
 
 <body>
 
-    <header>
+    <header class="header_pc">
         <nav class="barra_navegacao">
             <section class="barra_navegacao_caixa1">
                 <img src="imagens/Logos/Sem_Fundo.png" alt="Logo" width="15%">
                 <a href="#secao_dois">Serviços</a>
-                <a href="">Loja</a>
+                <a href="#secao_tres">Loja</a>
                 <a href="#footer">Contato</a>
             </section>
             <section class="barra_navegacao_caixa2">
@@ -30,6 +31,21 @@
             </section>
         </nav>
     </header>
+    <header class="header-mobile">
+        <nav class="barra_navegacao_mobile">
+            <img src="imagens/Logos/Sem_Fundo.png" alt="Logo" width="30%">
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div class="menu-mobile" id="menuMobile">
+            <a href="#secao_dois">Serviços</a>
+            <a href="#secao_tres">Loja</a>
+            <a href="#footer">Contato</a>
+            <a href="formulario_login/login.html">Criar Conta ou Entrar</a>
+        </div>
+    </header>
+
 
     <main>
         <section class="secao_um">
@@ -55,35 +71,43 @@
                     <p>Cuidados durante o dia com atividades recreativas para seu pet.</p>
                 </div>
             </div>
-            
+
         </section>
-        <section class="secao_tres">
+        <section class="secao_tres" id="secao_tres">
             <h2>Loja</h2>
             <section class="produtos_disponiveis">
                 <div class="card">
-                <h3>Camisa HotelPet - Roxa</h3>
-                <img src="imagens/mockup/camisa_roxa.png" alt="Camisa Roxa">
-                <p>R$ 100,00</p>
-                <button><a href="https://wa.me/5513999999999?text=Gostaria%20de%20comprar%20Camisa%20HotelPet%20-%20Roxa" target="_blank">Comprar</a></button>
-            </div>
-            <div class="card">
-                <h3>Camisa HotelPet - Branca</h3>
-                <img src="imagens/mockup/camisa_branca.png" alt="Camisa Branca">
-                <p>R$ 100,00</p>
-                <button><a href="https://wa.me/5513999999999?text=Gostaria%20de%20comprar%20Camisa%20HotelPet%20-%20Branca" target="_blank">Comprar</a></button>
-            </div>
-            <div class="card">
-                <h3>Boné HotelPet - Roxo</h3>
-                <img src="imagens/mockup/boné_roxo.png" alt="Boné Roxo"> 
-                <p>R$ 50,00</p>
-                <button><a href="https://wa.me/5513999999999?text=Gostaria%20de%20comprar%20Boné%20HotelPet%20-%20Roxo" target="_blank">Comprar</a></button>
-            </div>
-            <div class="card">
-                <h3>Pingente HotelPet - Roxo</h3>
-                <img src="imagens/mockup/pingente_roxo.png" alt="Pingente Roxo">
-                <p>R$ 30,00</p>
-                <button><a href="https://wa.me/5513999999999?text=Gostaria%20de%20comprar%20Pingente%20HotelPet%20-%20Roxo" target="_blank">Comprar</a></button>
-            </div>
+                    <h3>Camisa HotelPet - Roxa</h3>
+                    <img src="imagens/mockup/camisa_roxa.png" alt="Camisa Roxa">
+                    <p>R$ 100,00</p>
+                    <button><a
+                            href="https://wa.me/5513999999999?text=Gostaria%20de%20comprar%20Camisa%20HotelPet%20-%20Roxa"
+                            target="_blank">Comprar</a></button>
+                </div>
+                <div class="card">
+                    <h3>Camisa HotelPet - Branca</h3>
+                    <img src="imagens/mockup/camisa_branca.png" alt="Camisa Branca">
+                    <p>R$ 100,00</p>
+                    <button><a
+                            href="https://wa.me/5513999999999?text=Gostaria%20de%20comprar%20Camisa%20HotelPet%20-%20Branca"
+                            target="_blank">Comprar</a></button>
+                </div>
+                <div class="card">
+                    <h3>Boné HotelPet - Roxo</h3>
+                    <img src="imagens/mockup/boné_roxo.png" alt="Boné Roxo">
+                    <p>R$ 50,00</p>
+                    <button><a
+                            href="https://wa.me/5513999999999?text=Gostaria%20de%20comprar%20Boné%20HotelPet%20-%20Roxo"
+                            target="_blank">Comprar</a></button>
+                </div>
+                <div class="card">
+                    <h3>Pingente HotelPet - Roxo</h3>
+                    <img src="imagens/mockup/pingente_roxo.png" alt="Pingente Roxo">
+                    <p>R$ 30,00</p>
+                    <button><a
+                            href="https://wa.me/5513999999999?text=Gostaria%20de%20comprar%20Pingente%20HotelPet%20-%20Roxo"
+                            target="_blank">Comprar</a></button>
+                </div>
             </section>
 
         </section>
