@@ -81,6 +81,7 @@
 
 .secao_um {
     position: relative;
+    background-color: #6041ac;
 }
 
 .imagem_secao_um {
@@ -100,39 +101,30 @@
     font-size: 3.5em;
     font-weight: 900;
     width: 60%;
-    color: #643ac5;
+    color: #6041ac;
 }
 
 .texto2_secao_um {
     font-weight: 800;   
     color: #7e4cb1;
 }
-
-
-
-.titulo h2 {
+.secao_dois{
+    background-color: #6041ac;
+    color: white;
     text-align: center;
-    margin-top: 10%;
+}
+.secao_dois > h1, h2 {
     font-size: 3em;
-    color: #643ac5;
-    font-weight: 900;
+    font-weight: 700;
+    padding: 3%;
 }
-
-.servicos h2 {
-    margin-top: 5%;
-    padding: 3em;
-    text-align: center;
-}
-
-.servicos_disponiveis {
+.secao_dois > .servicos_disponiveis {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
-    width: 80%;
-    margin: 2rem auto;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
 }
 
-.card {
+.secao_dois > .card {
     background-color: white;
     border-radius: 10px;
     padding: 1.5rem;
@@ -141,14 +133,11 @@
     border: 1px solid rgba(0, 0, 0, 0.315);
 }
 
-.card h3 {
-    color: #6141ac;
+.secao_dois > .card h3 {
+    color: #6041ac;
 }
 
-.contatos h2,
-p {
-    text-align: center;
-}
+
 
 #btnTopo {
     position: fixed;
@@ -171,9 +160,10 @@ p {
 }
 
 footer {
-    background-color: #6141ac;
+    background-color: #6041ac;
     color: white;
 }
+
 .superior_footer{
     display: flex;
     justify-content: space-around;
@@ -189,6 +179,13 @@ footer {
     display: flex;
     flex-direction: row;
     margin-top: 2%;
+}
+.contatos h2,
+p {
+    text-align: center;
+}
+.contatos h2{
+    font-size: 1.2em;
 }
 .localizacao > a {
     text-decoration: none;
