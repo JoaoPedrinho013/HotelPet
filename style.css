@@ -21,7 +21,8 @@
     align-items: center;
     padding: 0 5%;
 }
-.barra_navegacao_caixa1 > a {
+
+.barra_navegacao_caixa1>a {
     color: #6041ac;
     font-weight: 600;
     font-size: 1.1em;
@@ -29,7 +30,7 @@
     position: relative;
 }
 
-.barra_navegacao_caixa1 > a::after {
+.barra_navegacao_caixa1>a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -42,7 +43,7 @@
     transition: transform 0.3s ease;
 }
 
-.barra_navegacao_caixa1 > a:hover::after {
+.barra_navegacao_caixa1>a:hover::after {
     transform: scaleX(1);
 }
 
@@ -53,7 +54,7 @@
     padding-right: 15%;
 }
 
-.barra_navegacao_caixa2 > a {
+.barra_navegacao_caixa2>a {
     color: #6041ac;
     font-weight: 600;
     font-size: 1.1em;
@@ -61,7 +62,7 @@
     position: relative;
 }
 
-.barra_navegacao_caixa2 > a::after {
+.barra_navegacao_caixa2>a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -74,21 +75,56 @@
     transition: transform 0.3s ease;
 }
 
-.barra_navegacao_caixa2 > a:hover::after {
+.barra_navegacao_caixa2>a:hover::after {
     transform: scaleX(1);
 }
+
+.secao_um {
+    position: relative;
+}
+
+.imagem_secao_um {
+    width: 100%;
+}
+
+.texo1_secao_um,
+.texto2_secao_um {
+    position: absolute;
+    left: 70%;
+    color: white;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.texo1_secao_um {
+    top: 10%;
+    font-size: 3.5em;
+    font-weight: 900;
+    width: 60%;
+    color: #643ac5;
+}
+
+.texto2_secao_um {
+    top: 15%;
+    font-weight: 800;   
+    width: 30%;
+    font-size: 3em;
+    color: #7e4cb1;
+}
+
+
 
 .titulo h2 {
     text-align: center;
     margin-top: 10%;
-    font-size: 2rem;
+    font-size: 3em;
     color: #643ac5;
     font-weight: 900;
 }
 
 .servicos h2 {
     margin-top: 5%;
-    padding: 2rem;
+    padding: 3em;
     text-align: center;
 }
 
@@ -126,22 +162,21 @@ footer {
 }
 
 #btnTopo {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 12px;
-  font-size: 20px;
-  background-color: #6041ac;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  display: none;
-  transition: opacity 0.3s ease;
-  z-index: 1001;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px;
+    font-size: 20px;
+    background-color: #6041ac;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    transition: opacity 0.3s ease;
+    z-index: 1001;
 }
 
 #btnTopo:hover {
-  background-color: #7e4cb1;
+    background-color: #7e4cb1;
 }
-
