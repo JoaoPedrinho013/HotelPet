@@ -138,10 +138,11 @@ form>.botao_girar:hover {
 
 .entrar_apple {
     background-color: transparent;
+    opacity: 0.5;
 }
 
 .entrar_apple:hover {
-    color: #6041ac;
+    cursor: not-allowed;
 
 }
 
