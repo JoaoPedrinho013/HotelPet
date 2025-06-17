@@ -3,7 +3,19 @@
     justify-content: space-around;
     background-color: #c2cdff;
 }
-.secao_tres > div > button{
+
+.secao_tres > .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+}
+.secao_tres > .card > img{
+    width: 100%;
+}
+.secao_tres > div > button {
     background-color: #c2cdff;
     border-radius: 5%;
     padding: 1%;
@@ -11,8 +23,4 @@
 }
 .secao_tres > div > button:hover{
     cursor: pointer;
-}
-
-.card > img{
-    width: 100%;
 }
