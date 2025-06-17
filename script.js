@@ -1,5 +1,4 @@
 const btnTopo = document.getElementById("btnTopo");
-
   window.addEventListener("scroll", function () {
     if (window.scrollY > 200) {
       btnTopo.style.display = "block";
@@ -15,3 +14,14 @@ const btnTopo = document.getElementById("btnTopo");
     });
   });
 
+window.addEventListener('DOMContentLoaded', () => {
+        const usuario = localStorage.getItem('usuarioLogado');
+        if (usuario) {
+            const barra_navegacao_caixa2 = document.querySelector('.barra_navegacao_caixa2');
+            barra_navegacao_caixa2.innerHTML = ``;
+           
+        }
+    });
+window.addEventListener('DOMContentLoaded', () => {
+    localStorage.clear();
+});

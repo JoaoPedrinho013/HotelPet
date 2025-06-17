@@ -93,4 +93,9 @@ document.querySelectorAll('.toggle_senha').forEach(olho => {
   });
 });
 
+const continuar = () => {
+  localStorage.setItem('usuarioLogado', 'João');
+    window.location.href = "../index.html";
+}
+
 
