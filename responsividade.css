@@ -1,9 +1,22 @@
-@media (max-width: 1050px) {
-  .localizacao {
-    display: none;
+@media (max-width: 1330px) {
+  .superior_footer {
+      display: flex;
+      flex-direction: column;
   }
+  .superior_footer > img {
+      width: 70%;
+  }
+}
+@media (max-width: 1050px) {
   .texo1_secao_um{
     display: none;
+  }
+  .superior_footer {
+      display: flex;
+      flex-direction: column;
+  }
+  .superior_footer > img {
+      width: 70%;
   }
 }
 @media (max-width: 950px) {
@@ -15,7 +28,7 @@
         width: 100%;
     }
 }
-@media (min-width: 300px) and (max-width: 850px) {
+@media (min-width: 200px) and (max-width: 850px) {
   .servicos_disponiveis{
     display: flex;
     flex-direction: column;
@@ -82,7 +95,4 @@
     display: flex;
   }
 
-  .swiper-pagination{
-    display: none;
-  }
 }
