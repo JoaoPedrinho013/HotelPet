@@ -67,13 +67,13 @@ swiperContainer.addEventListener('mouseleave', () => {
 
 
 
- document.querySelectorAll('.servicos_disponiveis .card').forEach(card => {
-    card.addEventListener('click', () => {
-      const nomeServico = card.querySelector('h3')?.innerText || 'serviço';
+document.querySelectorAll('.servicos_disponiveis .card').forEach(card => {
+  card.addEventListener('click', () => {
+    const nomeServico = card.querySelector('h3')?.innerText || 'serviço';
 
-      const mensagem = `Gostaria desse serviço: ${nomeServico}`;
-      const url = `https://wa.me/5513999999999?text=${encodeURIComponent(mensagem)}`;
+    const mensagem = `Gostaria desse serviço: ${nomeServico}`;
+    const url = `https://wa.me/5513999999999?text=${encodeURIComponent(mensagem)}`;
 
-      window.open(url, '_blank');
-    });
+    window.open(url, '_blank');
   });
+});
