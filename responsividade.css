@@ -81,5 +81,8 @@
   .menu-mobile.ativo {
     display: flex;
   }
-}
 
+  .swiper-pagination{
+    display: none;
+  }
+}
